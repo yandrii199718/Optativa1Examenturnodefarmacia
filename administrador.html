@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADMINISTRADOR DE CITAS |FARMACIA ATENCIÒN AL CLIENTE </title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/fontello.css" rel="stylesheet">
+     <link href="js/butoom.js" rel="stylesheet">
+       <link href="js/validar.js" rel="stylesheet">
+       
+    
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+          <div class="logo-container column column--50">
+              <h1 class="logo">Farmacia Relex atencion al cliente</h1>
+          </div>
+           <div class="main-header__contacInfo column column--50">
+               <div class="main-header__contacInfo__phone">
+                   <span class="icon-phone">999-999-999</span>
+               </div>
+               
+               <div class="main-header__contacInfo__address">
+               
+               <span class="icon-location">Manta calle 13 Flavio Reyes ,Ecuador </span></div>
+               
+               
+           </div>
+               
+                
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id ="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link  ">Inicio</a></li>
+                
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Acerca de</a></li>
+                
+                
+                <li class="menu__item"><a href="citas.html" class="menu__link">Citas</a></li>
+                
+                <li class="menu__item"><a href="contacto.html" class="menu__link ">Contacto</a></li>
+                <li class="menu__item"><a href="consultar.html" class="menu__link ">Consultar Registro</a></li>
+                
+                <li class="menu__item"><a href="login%20y%20registo.html" class="menu__link menu__link--select">Administrador</a></li>
+                  <li class="menu__item"><a href="index.html" class="menu__link">Cerrar Cessión</a></li>
+                
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail-alt"></span></a>
+            </div>
+            
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="img/medicina3.jpg" alt="" class="banner__img">
+        <div class="banner__content">Sitio solo para el administrador consultar citas o pedidos programados por el cliente</div>
+    </section>
+    <section class="group group--color">
+     <div class="container">
+               <h2 class="main__title">El administardor debe aceptar,Rechazar o Modifica turnos o retiro progamado </h2>
+               
+           </div>
+    </section>
+    
+    <main >
+      <section class="clientes contenedor">
+           
+       
+            
+            <div class="container">
+            <div>
+                        <h2>Administración de Solicitudes</h2>
+                        
+                        
+                    </div><table>
+                <tbody><tr>
+                    <td>
+                        <p>
+                            Solicitudes de Usuarios
+                            </p>
+                             
+                            <table class="table table-bordered order-table" >
+                                <thead>
+                                    <tr>
+                                        <th>Nombres</th>
+                                        <th>Numero de Cedula</th>
+                                        <th>Fecha</th>
+                                        <th>Hora</th>
+                                        <th>Ciudad</th>
+                                        <th>Transacción</th>
+                                        <th colspan="3" scope="rowgroup">Solicitud</th>
+                                    </tr>
+                                </thead>
+                                <tbody><tr>
+                                    <td>Yandri Jefferson Tuarez Perez</td>
+                                    <td>1316031804</td>
+                                    <td>23/08/2020 </td>
+                                    <td>18:20 </td>
+                                    <td>Manta</td>
+                                    <td>Turno de Atención</td>
+                                    
+                                    <td><button type="button"  onclick="alert1()" class="btn btn-info">Aceptar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert2()">Rechazar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert3()">Cambiar F/H</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Edisson Heiner Tuarez Perez</td>
+                                    <td>1316354209</td>
+                                    <td>2/09/2020 </td>
+                                    <td>10:55</td>
+                                    <td>Manta</td>
+                                    <td>Retiro de Medicamentos</td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert1()">Aceptar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert2()">Rechazar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert3()">Cambiar F/H</button></td>
+                                  </tr>
+                                  <tr>
+                                     <td>Jose Eduardo Perez Montilla</td>
+                                    <td>1357786445</td>
+                                    <td>30/07/2020 </td>
+                                    <td>13:00</td>
+                                    <td>Manta</td>
+                                    <td>Retiro de Medicamentos</td>
+                                    
+                                   <td><button type="button" class="btn btn-info" onclick="alert1()">Aceptar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert2()">Rechazar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert3()">Cambiar F/H</button></td>
+                                  </tr>
+                                  <tr>
+                                   <td>Ashely Mayeli Tuarez Perez</td>
+                                    <td>1315456783</td>
+                                    <td>12/10/2020 </td>
+                                    <td>12:10</td>
+                                    <td>Manta</td>
+                                    <td>Turno de Atención</td>
+                                   
+                                    <td><button type="button" class="btn btn-info" onclick="alert1()">Aceptar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert2()">Rechazar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert3()">Cambiar F/H</button></td>        
+                                  </tr>
+                                  <tr>
+                                                    <td>Micchell Anahy Narvaez Pincay</td>
+                                        <td>1314564709</td>
+                                        <td>29/07/2020 </td>
+                                        <td>17:10</td>
+                                        <td>Manta</td>
+                                        <td>Retiro de Medicamentos</td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert1()">Aceptar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert2()">Rechazar</button></td> 
+                                    <td><button type="button" class="btn btn-info" onclick="alert3()">Cambiar F/H</button></td>       
+                                  </tr>
+                                  <tr>
+                                   <td>Eduardo Jose Lucas Lopez</td>
+                                <td>1244532942</td>
+                                <td>30/10/2020 </td>
+                                <td>09:00</td>
+                                <td>Manta</td>
+                                <td>Turno de Atención</td>
+                                   
+                                    <td><button type="button" class="btn btn-info" onclick="alert1()">Aceptar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert2()">Rechazar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert3()">Cambiar F/H</button></td>
+                                  </tr>
+                                  <tr>
+                                  <td>Renata Luz Perez Natividad</td>
+                                    <td>1312457638</td>
+                                    <td>23/12/2020 </td>
+                                    <td>16:30</td>
+                                    <td>Manta</td>
+                                      <td>Retiro de Medicamentos</td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert1()">Aceptar</button></td>
+                                    <td><button type="button" class="btn btn-info" onclick="alert2()">Rechazar</button></td> 
+                                    <td><button type="button" class="btn btn-info" onclick="alert3()">Cambiar F/H</button></td>           
+                                  </tr>
+                                     
+                                </tbody><tbody>
+            
+                                </tbody>
+                            </table>
+                   
+                            
+                    </td>
+                    
+                </tr>
+            </tbody></table>
+        </div>     
+    </section>
+    
+   
+    </main>
+      <footer class="main-footer">
+            <div class="container container--flex">
+                
+                <div class="column column--33">
+                    <h2 class="column__title">¿Por que visitarnos</h2>
+                    <p class="column__txt">Ofrecemos los mejores productos y servicios del pais de forma confiable y segura mas de 1000 clientes son parte de nuestra familia farmaceutica.</p>
+                </div>
+                <div class="column column--33">
+                    <h2 class="column__title">Contáctanos</h2>
+                    <p class="column__txt"></p>
+                    <p class="column__txt"></p>
+                    <p class="column__txt">farmacicitas@hotmail.com</p>
+                </div>
+                <div class="column column--33">
+                    <h2 class="column__title">siguenos en nuestras redes </h2>
+                    <p class="icon-facebook">Faccebook<a href="" class="column__txt"></a></p>
+                    <p class="icon-twitter">Siguenos en Twitter<a href="" class="column__txt"></a></p>
+                    <p class="icon-youtube-play">Visitanos en nuestro canal<a href="" class="column__txt"></a></p>
+                </div>
+                <p class="copy">©  2020 Farmacia atencion al cliente  | Todos los derechos reservados</p>
+            </div>
+        </footer>
+        <script src="js/menu.js"></script>
+        <script src="js/butoom.js"></script>
+          <script src="js/validar.js"></script>
+           <script src="js/administrarTurnos.js"></script>
+    
+  
+</body>
+</html>

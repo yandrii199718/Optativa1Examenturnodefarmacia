@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CONTACTO |FARMACIA ATENCIÒN AL CLIENTE </title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+     <link rel="stylesheet" href="css/consultar.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link href="css/fontello.css" rel="stylesheet">
+     <link href="js/butoom.js" rel="stylesheet">
+       <link href="js/validar.js" rel="stylesheet">
+       
+    
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+          <div class="logo-container column column--50">
+              <h1 class="logo">Farmacia Relex atencion al cliente</h1>
+          </div>
+           <div class="main-header__contacInfo column column--50">
+               <div class="main-header__contacInfo__phone">
+                   <span class="icon-phone">999-999-999</span>
+               </div>
+               
+               <div class="main-header__contacInfo__address">
+               
+               <span class="icon-location">Manta calle 13 Flavio Reyes ,Ecuador </span></div>
+               
+               
+           </div>
+               
+                
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id ="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link  ">Inicio</a></li>
+                
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Acerca de</a></li>
+                
+                
+                <li class="menu__item"><a href="citas.html" class="menu__link">Citas</a></li>
+                
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+                <li class="menu__item"><a href="consultar.html" class="menu__link ">Consultar Registro</a></li>
+                
+                <li class="menu__item"><a href="login%20y%20registo.html" class="menu__link">Administrador</a></li>
+                  <li class="menu__item"><a href="login%20y%20registo.html" class="menu__link">Iniciar seccion o Registrarse</a></li>
+                
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail-alt"></span></a>
+            </div>
+            
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="img/medicina3.jpg" alt="" class="banner__img">
+        <div class="banner__content">La mejor ateccion que puedas encontrar separa tu cita y realiza pedidos de forma garantizada </div>
+    </section>
+    <section class="group group--color">
+     <div class="container">
+               <h2 class="main__title">Si necesitas informacion de nuestro servicio contactenos </h2>
+               
+           </div>
+    </section>
+    
+    <main class="main">
+       <section class="group contact">
+             <h2 class="group__title">Contáctenos</h2>
+            <div class="container container--flex">
+                <div class="contact-information column column--50">
+               
+               
+                <h3 class ="column__title">Informacion de contacto</h3>
+                <p class="column__txt">Comunicate a los siguientes numeros o redes solciales o puedes enviarnos un mensaje con la consulta a realizar te atenderemos de la mejor manera</p>
+                <p class="column__txt"><span class="icon-phone">Telefono 1 :999-999-999-999</span></p>
+                <p class="column__txt"><span class="icon-phone">Telefono 2 : 555-555-555-555</span></p>
+                <p class="column__txt"><span class="icon-location">Manta calle 13 Flavio Reyes</span></p>
+                <p class="column__txt"><span class="icon-mail-alt">farmacicitas@hotmail.com</span></p>
+                
+                    
+                 <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail-alt"></span></a>
+            
+                </div>
+               </div> 
+                <div class="contact-information column column--50">
+               
+                <form action="" method="post" class="formulario column column--50" onsubmit="return validar()" id="validar">
+                    <label for="" class="formulario__label">Nombre:</label>
+                    <input type="text" id="nombre" class="formulario__input-txt" name="nombre" required >
+                    
+                    <label for="" class="formulario__label">Correo:</label>
+                    <input type="email" id="correo" class="formulario__input-txt" name="Correo" required >
+                    
+                    <label for="" class="formulario__label">Teléfono:</label>
+                    <input type="text" id="telefono" class="formulario__input-txt" name="telefono" required >
+                    
+                    <label for="" class="formulario__label">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="formulario__textarea"></textarea>
+                    
+                    
+                    <button  type="submit" value="Enviar" class="btn btn-info" id="boton" onclick="guardar()">Enviar</button>
+                    
+                    
+              
+                   
+                    
+                </form>
+                </div>
+               
+            </div>
+           
+           
+           
+      
+       
+    </section>
+    </main>
+     <br/>
+            <br/>
+              <br/>
+           <br/>
+      <footer class="main-footer">
+            <div class="container container--flex">
+                
+                <div class="column column--33">
+                    <h2 class="column__title">¿Por que visitarnos</h2>
+                    <p class="column__txt">Ofrecemos los mejores productos y servicios del pais de forma confiable y segura mas de 1000 clientes son parte de nuestra familia farmaceutica.</p>
+                </div>
+                <div class="column column--33">
+                    <h2 class="column__title">Contáctanos</h2>
+                    <p class="column__txt"></p>
+                    <p class="column__txt"></p>
+                    <p class="column__txt">farmacicitas@hotmail.com</p>
+                </div>
+                <div class="column column--33">
+                    <h2 class="column__title">siguenos en nuestras redes </h2>
+                    <p class="icon-facebook">Faccebook<a href="" class="column__txt"></a></p>
+                    <p class="icon-twitter">Siguenos en Twitter<a href="" class="column__txt"></a></p>
+                    <p class="icon-youtube-play">Visitanos en nuestro canal<a href="" class="column__txt"></a></p>
+                </div>
+                <p class="copy">©  2020 Farmacia atencion al cliente  | Todos los derechos reservados</p>
+            </div>
+        </footer>
+        <script src="js/menu.js"></script>
+        <script src="js/butoom.js"></script>
+          <script src="js/validar.js"></script>
+          <script src="js/Contacto.js"></script>
+</body>
+</html>
